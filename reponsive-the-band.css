@@ -1,0 +1,106 @@
+/* MObile */
+@media  (max-width: 46.1875em){
+    .s-full-width{
+        width: 100% !important;
+
+    }
+    .s-colum-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    
+    
+    #header{
+        overflow: hidden;
+    }
+    #header .menu-mobile-btn{
+        display: block;   
+       }
+       
+       #header .search-btn{
+           display: none;
+       }
+    #nav{
+        display: block;/* sử dụng để ấn vào bất cứ đâu cx đều đóng thanh menu */
+    }
+    
+    #nav >li{
+        display: block;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+        
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px  41px;
+    }
+    #nav > li:first-child{ /* chỉ vào phần tử đầu tiên của thẻ nav ( đó là  thẻ li của Home */
+        display: inline-block;
+    }
+    #content .member-item{
+        margin-top: 30px;
+        width: 100%;
+
+
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .contact-form{
+        margin-top: 32px;
+    }
+    /* buy-tckets */
+    
+    
+
+    
+    
+    
+}
+/* Tablet */
+@media  (min-width:46.25em) and (max-width:63.9375em){
+    .tablet{
+        display: block;
+    }
+    
+    
+} 
+/* PC */
+@media  (min-width: 64em){
+    .pc{
+        display: block;
+    }
+}
+/* tablet & mobile */
+@media  (max-width : 63.9375em){
+    #nav .subnav a{
+        padding: 5px  12px;
+    }
+    .btn{
+        padding: 15px 16px;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    
+    #footer .social{
+        font-size: 48px;
+    }
+    #footer .social a{
+        margin: 0 8px;
+    }
+    #footer .social-text a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+    .contact-info{
+        line-height: 2;
+    }
+}
